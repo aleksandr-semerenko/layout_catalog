@@ -1,5 +1,5 @@
 .card {
-  padding: 32px 14px 14px;
+  padding: 20px 14px 14px;
 
   max-width: 200px;
   background: #fff;
@@ -8,6 +8,8 @@
 
   &__image {
     margin: 0 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 
     width: 160px;
     height: 134px;
@@ -16,7 +18,7 @@
 
     &:hover {
       border: 3px solid #f3f3f3;
-      transform: scale(1.25, 1.47);
+      transform: scale(1.25);
     }
   }
 
