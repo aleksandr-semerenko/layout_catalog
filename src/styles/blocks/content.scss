@@ -1,16 +1,11 @@
 .content {
   display: flex;
   justify-content: center;
+  padding: 50px 40px 28px;
 
   &__cards {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    flex-basis: 992px;
-  }
-
-  &__card {
-    margin: 50px 24px 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 48px;
   }
 }
