@@ -11,6 +11,13 @@
 
     width: 160px;
     height: 134px;
+
+    transition: transform 0.4s;
+
+    &:hover {
+      border: 3px solid #f3f3f3;
+      transform: scale(1.25, 1.47);
+    }
   }
 
   &__name {

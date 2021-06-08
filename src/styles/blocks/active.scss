@@ -1,5 +1,5 @@
 .is-active {
-  color: $color-blue;
+  color: #00acdc;
 
   &:after {
     content: "";
@@ -8,7 +8,7 @@
     height: 4px;
     left: 0;
     bottom: 0;
-    background-color: $color-blue;
+    background-color: #00acdc;
     border-radius: 8px;
   }
 }
